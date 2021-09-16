@@ -1,7 +1,7 @@
 ---
 - hosts: all
   tasks:
-    - name: Include variables for the controller setting
+    - name: Include variables for the controller settingss
       include_vars: vars/controller.yaml
 
     - include_role:
